@@ -1,8 +1,6 @@
 <template>
   <van-tabs v-model:active="active">
-    <van-tab v-for="item in list" :key="item.id" :title="item.text"
-      >内容 1</van-tab
-    >
+    <van-tab v-for="item in list" :key="item.id" :title="item.text"></van-tab>
   </van-tabs>
 </template>
 

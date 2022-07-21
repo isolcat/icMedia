@@ -6,7 +6,7 @@ import router from './router'
 import '@/assets/styles/base.less'
 import '@/assets/styles/iconfont.less'
 // 需要用到vant组件里面的tab标签页，在入口处引入
-import { Tab, Tabs } from 'vant';
+import { Tab, Tabs, Swipe, SwipeItem } from 'vant';
 
 // 让mock接口跑起来
 import '@/mock/index'
@@ -15,5 +15,7 @@ import '@/mock/index'
 const app = createApp(App)
 app.use(Tab)
 app.use(Tabs)
+app.use(Swipe)
+app.use(SwipeItem)
 app.use(router)
 app.mount('#app')
