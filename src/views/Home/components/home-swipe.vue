@@ -26,4 +26,10 @@ axios({
 })
 </script>
 
-<style></style>
+<style lang="less" scoped>
+.my-swiper {
+  img {
+    width: 100%;
+  }
+}
+</style>
