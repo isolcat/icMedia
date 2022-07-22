@@ -6,7 +6,7 @@ export default [
     desc: '【演技】吃饭同样是吃空气，为什么演技差距如此之大！',
     playCount: '65.7万',
     commentCount: '3083',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '11',
@@ -15,7 +15,7 @@ export default [
     desc: '【盘点火影真人版】我叫王大锤，是个忍者！这次参加了一个高成本火影忍者大电影！！',
     playCount: '46.1万',
     commentCount: '2090',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '12',
@@ -24,7 +24,7 @@ export default [
     desc: '女部落奇怪规定，女人怀孕后必须吃男人补身体，还好这只是电影',
     playCount: '56.6万',
     commentCount: '663',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '14',
@@ -33,7 +33,7 @@ export default [
     desc: '【全程高能】一个角色的三观到底能够正到什么地步【世间清流】',
     playCount: '32.6万',
     commentCount: '2425',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '15',
@@ -42,7 +42,7 @@ export default [
     desc: '明星20年后再次演绎自己的经典角色，谁变化最小',
     playCount: '46.6万',
     commentCount: '2770',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '16',
@@ -51,7 +51,7 @@ export default [
     desc: '一部拷问社会和人性的电影，极度真实，中国版的《东京物语》！',
     playCount: '37.9万',
     commentCount: '1658',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '17',
@@ -60,7 +60,7 @@ export default [
     desc: '【公开处刑】演技炸裂与演技尴尬到底是什么样子：我是谢晓飞，我走路拽起来都是演技？',
     playCount: '42.4万',
     commentCount: '5165',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },
   {
     id: '18',
@@ -69,6 +69,6 @@ export default [
     desc: '爆笑沙雕剧《我是大哥大》 全集，不看你后悔，沙雕青年快乐多，万恶之源，笑出腹肌',
     playCount: '26.6万',
     commentCount: '2027',
-    videoSrc: ''
+    videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   }
 ]

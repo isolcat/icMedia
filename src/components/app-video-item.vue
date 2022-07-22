@@ -31,11 +31,12 @@ interface IVideoItem {
   videoSrc: string
 }
 
-// 🔔 父传子需要通过 defineProps 接收
-// 🔔 PropType 用于指定格式
+// 父传子需要通过 defineProps 接收
+// PropType 用于指定格式
 defineProps({
   video: {
     // Object 对象为 IVideoItem 接口格式
+    // 需要定义这个接口类型，所以需要导入ProType
     type: Object as PropType<IVideoItem>,
     required: true
   }
