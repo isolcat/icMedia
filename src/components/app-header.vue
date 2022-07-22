@@ -13,7 +13,12 @@
       <img src="@/assets/images/login.png" alt="" />
     </a>
     <!-- 下载按钮 -->
-    <div class="down-app">下载app</div>
+    <div class="down-app">
+      <a
+        href="https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe?t=20220722&spm_id_from=333.47.b_646f776e6c6f61642d6c696e6b.9"
+        >下载app</a
+      >
+    </div>
   </header>
 </template>
 
