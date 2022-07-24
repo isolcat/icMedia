@@ -1,7 +1,7 @@
-<template></template>
+<template>
+  <div></div>
+</template>
 
-<script>
-export default {}
-</script>
+<script setup lang="ts"></script>
 
-<style></style>
+<style scoped></style>

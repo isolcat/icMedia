@@ -1,3 +1,4 @@
+import { Search } from 'vant'; import { useRoute } from 'vue-router';
 <template>
   <header class="app-header">
     <!-- logo -->
@@ -5,9 +6,10 @@
       <i class="iconfont Navbar_logo"></i>
     </a>
     <!-- 搜索 -->
-    <a class="search" href="#">
+    <a class="search" href="#/search">
       <i class="iconfont ic_search_tab"></i>
     </a>
+
     <!-- 头像 -->
     <a class="face" href="#">
       <img src="@/assets/images/login.png" alt="" />
