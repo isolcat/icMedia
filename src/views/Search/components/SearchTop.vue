@@ -19,4 +19,8 @@ const onSearch = (val: string | ToastOptions | undefined) => Toast(val)
 const onCancel = () => Toast('取消')
 </script>
 
-<style scoped></style>
+<style scoped>
+::v-deep .van-search__action {
+  color: #fb72a6;
+}
+</style>
