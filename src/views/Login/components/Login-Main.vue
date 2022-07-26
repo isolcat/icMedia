@@ -18,9 +18,9 @@
       </van-col>
       <van-col span="3"></van-col>
       <van-col span="8">
-        <van-button class="btn1" plain hairlin type="primary" to="/"
-          >登录</van-button
-        >
+        <van-button class="btn2" plain hairlin type="primary" to="/">
+          <p class="text">登录</p>
+        </van-button>
       </van-col>
     </van-row>
   </div>
@@ -47,5 +47,14 @@
   border: 0.1px solid #ff9db5;
   width: 20vh;
   height: 5vh;
+}
+.btn2 {
+  border: 0.1px solid #ff9db5;
+  width: 20vh;
+  height: 5vh;
+  background: #ff9db5;
+}
+.text {
+  color: #ffff;
 }
 </style>
