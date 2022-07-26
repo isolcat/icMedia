@@ -40,6 +40,9 @@
   height: 30%;
   margin-top: 10%;
 }
+.van-button--plain.van-button--primary {
+  color: #ff9db5;
+}
 .btn1 {
   border: 0.1px solid #ff9db5;
   width: 20vh;

@@ -13,11 +13,12 @@ body {
 }
 .header {
   width: 100%;
-  height: 30%;
+  height: 8vh;
   background: #ffff;
   text-align: center;
 }
 .text {
-  margin-top: 3%;
+  padding-top: 3%;
+  font-size: 1.2rem;
 }
 </style>
