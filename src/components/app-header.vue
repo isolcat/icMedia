@@ -11,7 +11,7 @@ import { Search } from 'vant'; import { useRoute } from 'vue-router';
     </a>
 
     <!-- 头像 -->
-    <a class="face" href="#">
+    <a class="face" href="#/login">
       <img src="@/assets/images/login.png" alt="" />
     </a>
     <!-- 下载按钮 -->
