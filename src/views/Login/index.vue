@@ -8,8 +8,8 @@ import LoginHeader from './components/Login-header.vue'
 import LoginMain from './components/Login-Main.vue'
 </script>
 
-<style>
-body {
+<style scoped>
+:global(body) {
   height: 100vh;
   background: #f4f4f4;
 }
