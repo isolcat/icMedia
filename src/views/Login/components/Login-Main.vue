@@ -26,7 +26,16 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, defineExpose } from 'vue'
+const text = ref('')
+const password = ref('')
+
+defineExpose({
+  text,
+  password
+})
+</script>
 
 <style scoped>
 .input {
