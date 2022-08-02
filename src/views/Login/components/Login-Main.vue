@@ -34,6 +34,7 @@
   width: 100%;
   height: 30%;
   margin-top: 6%;
+  margin-left: 0%;
 }
 .btn {
   width: 100%;
