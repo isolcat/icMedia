@@ -1,4 +1,9 @@
 import { Search } from 'vant'; import { useRoute } from 'vue-router';
+<script lang="ts" setup>
+import { mainStore } from '../stores/user'
+const store = mainStore()
+</script>
+
 <template>
   <header class="app-header">
     <!-- logo -->
@@ -12,7 +17,7 @@ import { Search } from 'vant'; import { useRoute } from 'vue-router';
 
     <!-- 头像 -->
     <a class="face" href="#/login">
-      <img src="@/assets/images/login.png" alt="" />
+      <img :src="store.login" alt="" />
     </a>
     <!-- 下载按钮 -->
     <div class="down-app">

@@ -14,11 +14,13 @@ module.exports = {
         ecmaVersion: 2020
     },
     rules: {
+        "indent": ["off", 2],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'vue/multi-word-component-names': 'off',
         semi: 0,
         'space-before-function-paren': 0,
-        'comma-dangle': 0
+        'comma-dangle': 0,
+        'eol-last': 0
     }
 }

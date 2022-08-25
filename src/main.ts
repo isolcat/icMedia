@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import { createPinia } from 'pinia'
 
 // @相当于src
 import '@/assets/styles/base.less'
@@ -12,6 +13,7 @@ import { Tab, Tabs, Swipe, SwipeItem, Search, Field, CellGroup, Col, Row } from 
 import '@/mock/index'
 
 // 此处添加一个变量app，方便按照文档的方式引入
+const pinia = createPinia()
 const app = createApp(App)
 app.use(Tab)
 app.use(Tabs)
@@ -23,4 +25,5 @@ app.use(Field)
 app.use(CellGroup)
 app.use(Col)
 app.use(Row)
+app.use(pinia)
 app.mount('#app')
