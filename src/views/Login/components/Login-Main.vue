@@ -17,7 +17,7 @@
         >
       </van-col>
       <van-col span="3"></van-col>
-      <van-col span="8">
+      <van-col span="8" @click="headerC">
         <van-button class="btn2" plain hairlin type="primary" to="/">
           <p class="text">登录</p>
         </van-button>
@@ -28,6 +28,13 @@
 
 <script setup>
 import { ref, defineExpose } from 'vue'
+import { mainStore } from '@/stores/user'
+const login = mainStore()
+
+function headerC() {
+  login.changeHeadShot()
+}
+
 const text = ref('')
 const password = ref('')
 
