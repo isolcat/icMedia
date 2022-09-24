@@ -16,13 +16,7 @@
 
 ## 项目展示
 
-<img src="https://pic.rmb.bdstatic.com/bjh/931ae0bdc4c6966e543985986baf8c75.png" alt="image.png" style="zoom:50%;" />
-
-<img src="https://pic.rmb.bdstatic.com/bjh/77bc6754b5b2f72230377d399ab810b2.png" alt="image.png" style="zoom:50%;" />
-
-<img src="https://pic.rmb.bdstatic.com/bjh/31c4ea25ef48c3f32a602da7c14caf98.png" alt="image.png" style="zoom:50%;" />
-
-<img src="https://pic.rmb.bdstatic.com/bjh/d5ca60679843beb7eaee353488fbc0aa.png" alt="image.png" style="zoom:50%;" />
+![firstgif1.gif](https://s2.loli.net/2022/09/24/Nhsyk9iUJ2uMKl8.gif)
 
 ## 项目预览地址
 
