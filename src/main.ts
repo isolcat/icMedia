@@ -8,7 +8,7 @@ import piniaPersist from 'pinia-plugin-persist'
 import '@/assets/styles/base.less'
 import '@/assets/styles/iconfont.less'
 // 需要用到vant组件里面的tab标签页，在入口处引入(其他的同理)
-import { Tab, Tabs, Swipe, SwipeItem, Search, Field, CellGroup, Col, Row } from 'vant';
+import { Tab, Tabs, Swipe, SwipeItem, Search, Field, CellGroup, Col, Row, Lazyload } from 'vant';
 
 // 让mock接口跑起来
 import '@/mock/index'
@@ -27,5 +27,6 @@ app.use(Field)
 app.use(CellGroup)
 app.use(Col)
 app.use(Row)
+app.use(Lazyload)
 app.use(pinia)
 app.mount('#app')

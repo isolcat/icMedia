@@ -1,6 +1,6 @@
 <template>
   <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
-    <van-swipe-item v-for="item in list" :key="item.imgSrc">
+    <van-swipe-item v-for="item in list" :key="item.imgSrc" v-lazy="item">
       <img :src="item.imgSrc" alt="欢迎来到哔哩哔哩" />
     </van-swipe-item>
   </van-swipe>

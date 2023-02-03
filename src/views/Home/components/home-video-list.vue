@@ -1,6 +1,11 @@
 <template>
   <div class="list">
-    <AppVideoItem v-for="item in list" :key="item.id" :video="item" />
+    <AppVideoItem
+      v-for="item in list"
+      :key="item.id"
+      :video="item"
+      v-lazy="item"
+    />
   </div>
 </template>
 
