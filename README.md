@@ -18,17 +18,11 @@
 
 ![firstgif1.gif](https://s2.loli.net/2022/09/24/Nhsyk9iUJ2uMKl8.gif)
 
-## 项目预览地址
-
-https://vue3-ts-bilibili.vercel.app
-
-
-
 ## 本地运行
 
 ```bash
 # clone到本地
-git clone git@github.com:isolcat/vue3-ts-bilibili.git
+git@github.com:isolcat/icMedia.git
 
 # 安装项目依赖
 npm install
